@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>2048</title>
+        
+        <p>Use arrow keys to combine tiles until you reach a value of 2048</p> 
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel= "stylesheet" href="node_modules/bulma/css/bulma.css" />
+        <link rel = "stylesheet" href = "style.css" />
+        
+    </head>
+    <body>
+         
+        <div id= "root"> </div>
+ 
+        <div>
+        <table id = "table">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </table>
+                </div>
+                
+
+        
+        
+
+        <!-- Include links to JavaScript files below -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src = "engine/controller-view.js" type="module"></script>
+
+    
+    </body>
+</html>

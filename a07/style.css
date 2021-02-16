@@ -1,0 +1,7 @@
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Serif;
+    line-height: 1.618;
+    min-height: 100vh;
+  }
