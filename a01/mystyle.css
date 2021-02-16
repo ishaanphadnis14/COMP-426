@@ -1,0 +1,149 @@
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Serif;
+    line-height: 1.618;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    background-color: #165e58;
+    text-align: center;
+    padding: 10px;
+  }
+   
+  h1,
+  h2 {
+    font-family: 'Georgia', serif;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    margin: .5rem 0;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  p {
+    text-align: center;
+    color: red;
+  } 
+  
+  #navbar {
+    background: orange;
+    box-shadow:
+      0 3px 6px rgba(4, 91, 221, 0.911),
+      0 3px 6px rgba(9, 216, 78, 0.932);
+  }
+  
+  a[target] {
+    background-color: #FF0000;;
+  }
+  
+  div:hover {
+    background-color: blue;
+  }
+  
+  .column.middle {
+    width: 50%;
+  }
+  
+  .big-quote p {
+    display: inline;
+  }
+  
+  .button {
+    background-color: #008CBA; 
+    border: none;
+    color: yellow;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(61, 10, 143, 0.644), 0 17px 50px 0 rgba(218, 197, 10, 0.795);
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 51rem;
+    padding: 0 .5rem;
+  }
+  
+  div p {
+    background-color: green;
+  }
+  
+  input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+  }
+  
+  input[type="button"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+  }
+  
+  
+  .legal a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar__body {
+    display: flex;
+    justify-content: stretch;
+  }
+  
+  a:link, a:visited {
+    background-color: #f44336;
+    color: teal;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  h2 {
+    text-align: center;
+    color: orange;
+  }
+  
+  p {
+    text-align: center;
+    color: red;
+  }
